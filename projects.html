@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(32, 30, 30);
+    }
+
+
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+    nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px 22px;
+    }
+
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    nav ul li a:hover{
+        transition: .3s;
+        color: rgb(97, 117, 233);
+    }
+
+    h1{
+        color: white;
+        font-size: 60px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 2px;
+        margin-top: 10px;
+    }
+
+    .logo{
+    color: white;
+    font-size: 35px;
+    }
+    
+    span{
+        color:rgb(97, 117, 233);
+    }
+
+
+    .card-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap:wrap;
+        color: white;
+        margin-top: 100px;
+    }
+
+    .card{
+        width: 325px;
+        margin: 10px;
+        transition: transform 0.5s ease;
+    }
+
+    .card:hover{
+        transform: translateY(-15px);
+    }
+
+    .card img{
+        width: 100%;
+        max-height: 200px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    
+    .content{
+        padding: 12px;
+    }
+
+    .content h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+    .content p{
+        font-size: 20px;
+        margin-bottom: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+
+  
+
+
+    
+    </style>
+
+</head>
+<body>
+    
+    <div class="mico">
+        <nav>
+            <h2 class="logo">M<span>F</span>M</h2>
+            <ul>
+                <li><a href="index.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div class="card-container">
+            <div class="card">
+                <img src="images/Color Game.png">
+                <div class="content">
+                    <h2>Color Game</h2>
+                    <p>During my first year, we worked our first project. We used the Python programming language to create this project, which is a game called <span>Color Game</span>. You will make a guess as to which color will show up. If your chosen color shows up, you win. If not, you lose.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Grill Republic.png">
+                <div class="content">
+                    <h2>Grill Republic</h2>
+                    <p>My <span>HTML and CSS</span> project blending grilling with modern design. Explore our diverse menu, order easily with responsive design. Grill Republic isn't just a food shop. it's a fusion of culinary excellence and web development in my portfolio. Visit for a sizzling taste adventure!</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/RAM.jpg">
+                <div class="content">
+                    <h2>RAM</h2>
+                    <p>A student-friendly solution developed during my second-year first semester using Android Studio. Simplifying document retrieval, this app streamlines the process for university students, minimizing hassle and maximizing efficiency. Enhance your academic journey by effortlessly managing and securing essential documents through this user-friendly <span>mobile application</span>.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Concordia Portum.png">
+                <div class="content">
+                    <h2>Concordia Portum</h2>
+                    <p>Our <span> second-semester final project</span>. A fusion of Android and website development. This dynamic collaboration aims to deliver a comprehensive solution, enhancing user experiences across platforms. Stay tuned for a versatile solution that marks a milestone in our academic journey.</p>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
